@@ -4,12 +4,12 @@ MODE="${1}"
 TECH_DOCS_PUBLISHER_IMAGE="docker.io/ministryofjustice/tech-docs-github-pages-publisher:v3.0.2"
 
 case ${MODE} in
-  deploy|preview|check-url-links)
-    true
+deploy|preview|check-url-links)
+  true
   ;;
-  *)
-    echo "Usage: ${0} [deploy|preview|check-url-links]"
-    exit 1
+*)
+  echo "Usage: ${0} [deploy|preview|check-url-links]"
+  exit 1
   ;;
 esac
 
