@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MODE="${1}"
+MODE="${1:-preview}"
 TECH_DOCS_PUBLISHER_IMAGE="docker.io/ministryofjustice/tech-docs-github-pages-publisher:v3.0.2"
 
 case ${MODE} in
