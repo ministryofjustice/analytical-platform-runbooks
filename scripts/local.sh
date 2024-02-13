@@ -19,9 +19,9 @@ else
   PLATFORM_FLAG=""
 fi
 
-docker run -it --rm ${PLATFORM_FLAG} \
+docker run -it --rm "${PLATFORM_FLAG}" \
   --name "tech-docs-${MODE}" \
   --publish 4567:4567 \
-  --volume $(pwd)/config:/app/config \
-  --volume $(pwd)/source:/app/source \
+  --volume "${PWD}/config:/app/config" \
+  --volume "${PWD}/source:/app/source" \
   "${TECH_DOCS_PUBLISHER_IMAGE}" "/scripts/${MODE}.sh"
