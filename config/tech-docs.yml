@@ -1,0 +1,18 @@
+---
+# See the available options: https://tdt-documentation.london.cloudapps.digital/configure_project/global_configuration/#configure-your-documentation-site
+
+host: https://ministryofjustice.github.io/analytical-platform-runbooks
+show_govuk_logo: false
+service_name: Analytical Platform Runbooks
+service_link: /
+header_links:
+  GitHub: https://github.com/ministryofjustice/analytical-platform-runbooks
+phase: internal
+enable_search: true
+multipage_nav: true
+collapsible_nav: true
+max_toc_heading_level: 3
+prevent_indexing: true
+show_contribution_banner: true
+github_repo: ministryofjustice/analytical-platform-runbooks
+github_branch: main
