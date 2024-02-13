@@ -14,7 +14,7 @@ deploy | preview | check-url-links)
 esac
 
 if [[ "$(uname -m)" == "aarch64" ]] || [[ "$(uname -m)" == "arm64" ]]; then
-  PLATFORM_FLAG="--platform linux/amd64"
+  PLATFORM_FLAG="--platform=linux/amd64"
 else
   PLATFORM_FLAG=""
 fi
