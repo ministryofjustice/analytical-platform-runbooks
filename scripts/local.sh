@@ -4,7 +4,7 @@ MODE="${1}"
 TECH_DOCS_PUBLISHER_IMAGE="docker.io/ministryofjustice/tech-docs-github-pages-publisher:v3.0.2"
 
 case ${MODE} in
-deploy|preview|check-url-links)
+deploy | preview | check-url-links)
   true
   ;;
 *)
