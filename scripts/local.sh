@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 MODE="${1:-preview}"
-TECH_DOCS_PUBLISHER_IMAGE="docker.io/ministryofjustice/tech-docs-github-pages-publisher:v3.0.2"
+TECH_DOCS_PUBLISHER_IMAGE="docker.io/ministryofjustice/tech-docs-github-pages-publisher@sha256:26b720c51b12f13b91d35b4447acbb21f437cfd94e36e1581ea631955ea616ba" # v3.0.2
 
 case ${MODE} in
 deploy | preview | check-url-links)
