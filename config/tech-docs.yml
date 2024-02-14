@@ -4,7 +4,7 @@
 host: https://ministryofjustice.github.io/analytical-platform-runbooks
 show_govuk_logo: false
 service_name: Analytical Platform Runbooks
-service_link: https://ministryofjustice.github.io/analytical-platform-runbooks
+service_link: /
 phase: internal
 header_links:
   Slack: https://moj.enterprise.slack.com/archives/C04M8224WCV
