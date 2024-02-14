@@ -24,7 +24,7 @@ jobs:
       - name: Build
         id: build
         run: |
-          bash /scripts/deploy.sh
+          /scripts/deploy.sh
 
   test:
     name: Test
