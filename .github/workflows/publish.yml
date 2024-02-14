@@ -2,11 +2,6 @@
 name: Build and Publish
 
 on:
-  # DEBUG ########
-  pull_request:
-    branches:
-      - main
-  ################
   push:
     branches:
       - main
