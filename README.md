@@ -10,18 +10,8 @@ You can preview how your changes will look, if you've cloned this repository
 to your local machine, run this command:
 
 ```bash
-bash scripts/docs/docker.sh preview
+bash scripts/local.sh
 ```
 
 This will run a preview web server on <http://localhost:4567> which you can
 open in your browser.
-
-Use `bash scripts/docs/docker.sh check` to compile
-the site to HTML and check the URLs are valid.
-
-This is only accessible on your computer, and won't be accessible to anyone
-else.
-
-For more details see the
-[tech-docs-github-pages-publisher](https://github.com/ministryofjustice/tech-docs-github-pages-publisher)
-repository.
