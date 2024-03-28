@@ -1,5 +1,5 @@
 ---
-owner_slack: "#data-platform-notifications"
+owner_slack: "#analytical-platform"
 title: Working in Modernisation Platform
 last_reviewed_on: 2024-03-19
 review_in: 1 months
@@ -12,7 +12,7 @@ The Analytical Platform makes use of the Modernisation Platform as a hosting sol
 ## Running Terraform in Modernisation Platform
 
 > [!NOTE]
-> In this case we will use the [analytical-platform-ingestion](https://github.com/ministryofjustice/modernisation-platform-environments/tree/main/terraform/environments/analytical-platform-ingestion) repository.
+> In this case we will use the [analytical-platform-ingestion](https://github.com/ministryofjustice/modernisation-platform-environments/tree/main/terraform/environments/analytical-platform-ingestion) environment.
 
 1. Clone the [modernisation-platform-environments](https://github.com/ministryofjustice/modernisation-platform-environments) repository.
 1. Start the Dev Container. `Cmd + Shift + P` -> `Dev Containers: Reopen in Container`
@@ -32,7 +32,7 @@ The Analytical Platform makes use of the Modernisation Platform as a hosting sol
     https://device.sso.eu-west-2.amazonaws.com/?user_code=ABCD-EFGH
     ```
 
-1. Click on the link provided and authorize AWS in the browser. Return to your terminal.
+1. Click on the link provided and authorise AWS in the browser. Return to your terminal.
 1. You can now run this command repeatedly with a fast feedback loop to understand the changes you are making in Terraform.
 
 ### Common Errors
